@@ -1,0 +1,84 @@
+.cartas > button {
+  width: 200px;
+  height: 250px;
+  border: none;
+  margin-bottom: 25px;
+  background-color: transparent;
+}
+.cont2 {
+  background-image: linear-gradient(to right, lightblue, rgb(255, 255, 255));
+}
+.recetasSS {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  color: rgb(112, 10, 10);
+  margin: 20px;
+}
+.mensajePlatos {
+  margin-top: 40px;
+  padding: 10px;
+  border: solid 2px grey;
+  border-radius: 12px;
+}
+.card:hover {
+  box-shadow: 2px 2px 25px;
+}
+.cartas {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.card-text {
+  font-size: 18px;
+}
+.card {
+  width: 100% !important;
+  border-radius: 15px;
+}
+.card-body {
+  padding: 10px;
+}
+.modal-body {
+  display: grid;
+}
+.imagenModal {
+  width: 50%;
+  justify-self: center;
+  border-radius: 45px 0 45px 0;
+}
+.modal-title {
+  font-family: fantasy;
+}
+
+.modal-header {
+  height: 70px;
+}
+.btn-close {
+  height: 20px !important;
+  width: 20px !important;
+}
+.botonCerrar {
+  background-color: rgb(172, 32, 32);
+  width: 100% !important;
+  height: 35px !important;
+}
+.botonCerrar:hover {
+  background-color: rgb(82, 7, 7);
+}
+
+@media (max-width: 668px) {
+  .cartas button {
+    width: 150px;
+    height: 200px;
+    border: none;
+    margin-bottom: 15px;
+  }
+  .cartas {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  .card-text {
+    font-size: 15px;
+  }
+}

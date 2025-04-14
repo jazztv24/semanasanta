@@ -1,0 +1,42 @@
+.historia{
+  width: 100%;
+  padding: 20px;
+  text-align: justify;
+}
+.titulohistoria{
+  font-size: 35px;
+  margin: 20px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.mensajehistoria{
+  margin: 25px;
+  text-align: justify;
+}
+.row{
+  display: block;
+}
+.menu{
+  text-align: center;
+  font-size: 35px;
+}
+.itemSS{
+  margin-bottom: 35px !important;
+  display: flex;
+  flex-direction: column;
+}
+.itemSS img{
+  width: 70%;
+  align-self: center;
+}
+
+@media (max-width:668px){
+  .cont1{
+    padding-left: 30px !important;
+    display: block !important;
+    width: 100% !important;
+  }
+    .itemSS img{
+      width: 90%;
+    }
+}
